@@ -1,0 +1,13 @@
+.btn-show-gallery {
+  font-size: 18px;
+  color: #222222;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  color: #222222;
+  
+}

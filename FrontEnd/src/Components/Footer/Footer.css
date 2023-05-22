@@ -1,0 +1,89 @@
+
+
+
+/*[ Gallery footer ]
+///////////////////////////////////////////////////////////
+*/
+.item-gallery-footer {
+  display: block;
+  position: relative;
+  width: calc((100% - 50px) / 4 );
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.item-gallery-footer::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.item-gallery-footer:hover:after {
+  background-color: rgba(236,29,37,0.7);
+}
+
+
+/*[ BG Title Page ]
+///////////////////////////////////////////////////////////
+*/
+.bg-title-page {
+  width: 100%;
+  min-height: 545px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-repeat: no-repeat;
+  background-position: center 0;
+  background-size: cover;
+}
+
+@media (max-width: 576px) {
+  .bg-title-page .tit6 {font-size: 30px;}
+}
+
+
+
+/*[ Item mainmenu ]
+///////////////////////////////////////////////////////////
+*/
+
+.line-item-mainmenu {
+  flex-grow: 1;
+  height: 2px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+@media (max-width: 576px) {
+  .line-item-mainmenu {
+    display: none;
+  }
+
+  .price-item-mainmenu {
+    padding-top: 5px;
+  }
+
+  .name-item-mainmenu {
+    width: 100%;
+  }
+}
+
+
+/*[ Block3 ]
+///////////////////////////////////////////////////////////
+*/
+
+@media (max-width: 576px) {
+  .text-blo3 {
+    width: 100%;
+  }
+}
+
